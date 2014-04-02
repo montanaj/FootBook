@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Profile" representedClassName="Profile" syncable="YES">
+        <attribute name="friends" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hairyness" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfToes" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="shoeSize" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Profile" positionX="-36" positionY="9" width="128" height="105"/>
+    </elements>
+</model>
