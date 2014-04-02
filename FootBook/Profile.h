@@ -12,9 +12,10 @@
 
 @interface Profile : NSManagedObject
 
-@property (nonatomic, retain) NSNumber * shoeSize;
+@property (nonatomic, retain) NSNumber * friends;
 @property (nonatomic, retain) NSString * hairyness;
 @property (nonatomic, retain) NSNumber * numberOfToes;
-@property (nonatomic, retain) NSNumber * friends;
+@property (nonatomic, retain) NSNumber * shoeSize;
+@property (nonatomic, retain) NSString * name;
 
 @end

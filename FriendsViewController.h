@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FriendsViewController : UIViewController
+//conduit to allow view controllers to talk to each other - allows data to move between train stations, (it's the track)
+@property NSManagedObjectContext* managedObjectContext;
 
 @end

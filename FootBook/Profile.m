@@ -11,9 +11,10 @@
 
 @implementation Profile
 
-@dynamic shoeSize;
+@dynamic friends;
 @dynamic hairyness;
 @dynamic numberOfToes;
-@dynamic friends;
+@dynamic shoeSize;
+@dynamic name;
 
 @end

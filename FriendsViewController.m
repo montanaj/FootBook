@@ -16,16 +16,33 @@
 
 @implementation FriendsViewController
 
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (void)viewDidLoad
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    [super viewDidLoad];
+    
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:67/255.0f green:97/255.0f blue:114/255.0f alpha:1.0f];
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
+    //self.navigationController.navigationItem.backBarButtonItem.tintColor = [UIColor whiteColor];
 }
-*/
+
+
+#pragma mark CELL POPULATING/DELEGATE METHODS
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    //return self.namesArray.count;
+    return 2;
+}
+
+
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FriendsCellReuseID"];
+    
+    return cell;
+    
+}
 
 @end

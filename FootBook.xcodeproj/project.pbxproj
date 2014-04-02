@@ -23,9 +23,9 @@
 		709364F218EC96C50095FDD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709364F018EC96C50095FDD8 /* InfoPlist.strings */; };
 		709364F418EC96C50095FDD8 /* FootBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709364F318EC96C50095FDD8 /* FootBookTests.m */; };
 		709364FE18EC97250095FDD8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709364FD18EC97250095FDD8 /* Storyboard.storyboard */; };
-		7093650118EC9E160095FDD8 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7093650018EC9E160095FDD8 /* Profile.m */; };
 		7093650A18ECA1E40095FDD8 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7093650918ECA1E40095FDD8 /* FriendsViewController.m */; };
 		7093650D18ECA2A60095FDD8 /* OtherProfilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7093650C18ECA2A60095FDD8 /* OtherProfilesViewController.m */; };
+		7093651018ECB4DD0095FDD8 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7093650F18ECB4DD0095FDD8 /* Profile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +58,12 @@
 		709364F118EC96C50095FDD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		709364F318EC96C50095FDD8 /* FootBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootBookTests.m; sourceTree = "<group>"; };
 		709364FD18EC97250095FDD8 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		709364FF18EC9E160095FDD8 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
-		7093650018EC9E160095FDD8 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
 		7093650818ECA1E40095FDD8 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsViewController.h; path = ../FriendsViewController.h; sourceTree = "<group>"; };
 		7093650918ECA1E40095FDD8 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsViewController.m; path = ../FriendsViewController.m; sourceTree = "<group>"; };
 		7093650B18ECA2A60095FDD8 /* OtherProfilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherProfilesViewController.h; sourceTree = "<group>"; };
 		7093650C18ECA2A60095FDD8 /* OtherProfilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherProfilesViewController.m; sourceTree = "<group>"; };
+		7093650E18ECB4DD0095FDD8 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		7093650F18ECB4DD0095FDD8 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,15 +126,15 @@
 		709364D018EC96C40095FDD8 /* FootBook */ = {
 			isa = PBXGroup;
 			children = (
-				7093650818ECA1E40095FDD8 /* FriendsViewController.h */,
-				7093650918ECA1E40095FDD8 /* FriendsViewController.m */,
-				709364D918EC96C40095FDD8 /* CMJAppDelegate.h */,
-				709364DA18EC96C40095FDD8 /* CMJAppDelegate.m */,
 				709364DF18EC96C50095FDD8 /* Images.xcassets */,
 				709364DC18EC96C40095FDD8 /* FootBook.xcdatamodeld */,
-				709364FF18EC9E160095FDD8 /* Profile.h */,
-				7093650018EC9E160095FDD8 /* Profile.m */,
+				7093650E18ECB4DD0095FDD8 /* Profile.h */,
+				7093650F18ECB4DD0095FDD8 /* Profile.m */,
+				709364D918EC96C40095FDD8 /* CMJAppDelegate.h */,
+				709364DA18EC96C40095FDD8 /* CMJAppDelegate.m */,
 				709364FD18EC97250095FDD8 /* Storyboard.storyboard */,
+				7093650818ECA1E40095FDD8 /* FriendsViewController.h */,
+				7093650918ECA1E40095FDD8 /* FriendsViewController.m */,
 				7093650B18ECA2A60095FDD8 /* OtherProfilesViewController.h */,
 				7093650C18ECA2A60095FDD8 /* OtherProfilesViewController.m */,
 				709364D118EC96C40095FDD8 /* Supporting Files */,
@@ -270,8 +270,8 @@
 			files = (
 				7093650A18ECA1E40095FDD8 /* FriendsViewController.m in Sources */,
 				709364DE18EC96C40095FDD8 /* FootBook.xcdatamodeld in Sources */,
-				7093650118EC9E160095FDD8 /* Profile.m in Sources */,
 				7093650D18ECA2A60095FDD8 /* OtherProfilesViewController.m in Sources */,
+				7093651018ECB4DD0095FDD8 /* Profile.m in Sources */,
 				709364D718EC96C40095FDD8 /* main.m in Sources */,
 				709364DB18EC96C40095FDD8 /* CMJAppDelegate.m in Sources */,
 			);
@@ -470,6 +470,7 @@
 				709364F918EC96C50095FDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		709364FA18EC96C50095FDD8 /* Build configuration list for PBXNativeTarget "FootBookTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +479,7 @@
 				709364FC18EC96C50095FDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

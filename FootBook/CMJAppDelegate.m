@@ -7,7 +7,8 @@
 //
 
 #import "CMJAppDelegate.h"
-#import "RootViewController.h"
+#import "OtherProfilesViewController.h"
+#import "FriendsViewController.h"
 
 @implementation CMJAppDelegate
 
@@ -18,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     UINavigationController* navigationController = (id)self.window.rootViewController;
-    RootViewController* rootViewController = navigationController.viewControllers.firstObject;
+    FriendsViewController* rootViewController = navigationController.viewControllers.firstObject;
     rootViewController.managedObjectContext = self.managedObjectContext;
     
     return YES;
