@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702804F218ECEFA800AAA935 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702804F118ECEFA800AAA935 /* DetailViewController.m */; };
 		709364C918EC96C40095FDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709364C818EC96C40095FDD8 /* Foundation.framework */; };
 		709364CB18EC96C40095FDD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709364CA18EC96C40095FDD8 /* CoreGraphics.framework */; };
 		709364CD18EC96C40095FDD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709364CC18EC96C40095FDD8 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		702804F018ECEFA800AAA935 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		702804F118ECEFA800AAA935 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		709364C518EC96C40095FDD8 /* FootBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		709364C818EC96C40095FDD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		709364CA18EC96C40095FDD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +140,8 @@
 				7093650918ECA1E40095FDD8 /* FriendsViewController.m */,
 				7093650B18ECA2A60095FDD8 /* OtherProfilesViewController.h */,
 				7093650C18ECA2A60095FDD8 /* OtherProfilesViewController.m */,
+				702804F018ECEFA800AAA935 /* DetailViewController.h */,
+				702804F118ECEFA800AAA935 /* DetailViewController.m */,
 				709364D118EC96C40095FDD8 /* Supporting Files */,
 			);
 			path = FootBook;
@@ -274,6 +279,7 @@
 				7093651018ECB4DD0095FDD8 /* Profile.m in Sources */,
 				709364D718EC96C40095FDD8 /* main.m in Sources */,
 				709364DB18EC96C40095FDD8 /* CMJAppDelegate.m in Sources */,
+				702804F218ECEFA800AAA935 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
